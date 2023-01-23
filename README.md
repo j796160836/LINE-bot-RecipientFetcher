@@ -85,11 +85,9 @@ Following step is using Mac for demonstration. Linux also can be apply these ste
 	
 1. Go to "Messaging API" tab of your channel, fill up Webhook URL to `https://<your ngrok domain>/webhook`
 
-1. If you want to let LINE bot send message to a yourself, use your real account to send a message to your LINE bot.  
-  
-  program will print out the `userID` in console.
+1. If you want to let LINE bot send message to a yourself, use your real account to send a message to your LINE bot. Program will print out the `userID` in console.
 
-  sample value:
+  	sample value:
 
 	```
 	{"type":"user","userId":"U527xxxxxxxxxxxxxxxxxxxxxxxxxc0ee"}
@@ -101,10 +99,10 @@ Following step is using Mac for demonstration. Linux also can be apply these ste
 	- Add your LINE bot into group
 	- Use your real account to send a message to group
 
-	program will print out the `groupID` in console, it will be Recipient ID, keep it safe.
+	Program will print out the `groupID` in console, it will be Recipient ID, keep it safe.
 
 	sample value:
 		
 	```
-{"type":"group","groupId":"Ce51xxxxxxxxxxxxxxxxxxxxxxxxxx6ef","userId":"U527xxxxxxxxxxxxxxxxxxxxxxxxxc0ee"}
+	{"type":"group","groupId":"Ce51xxxxxxxxxxxxxxxxxxxxxxxxxx6ef","userId":"U527xxxxxxxxxxxxxxxxxxxxxxxxxc0ee"}
 	```
